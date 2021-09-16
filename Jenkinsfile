@@ -8,7 +8,7 @@ pipeline{
         }
         stage('two'){
             steps{
-             #build job: 'ing'   
+               
              build(job: 'ing')
             }
         
