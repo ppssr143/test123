@@ -6,5 +6,12 @@ pipeline{
                 echo 'hi'
             }
         }
+        stage('two'){
+            steps{
+             build 'ing'   
+            }
+        
+        }
+        
     }
 }
